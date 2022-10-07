@@ -22,8 +22,6 @@ def delete_student(student):
     f = open("students.txt", "w")
     f.write(metin)
 
-    print(list)
-
     
 if sys.argv[1] == "add":
     student = sys.argv[2]
